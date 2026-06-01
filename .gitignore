@@ -1,0 +1,18 @@
+# environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# vector database (can be rebuilt by running ingest)
+chroma_db/
+
+# jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# downloaded papers (can be re-downloaded)
+data/papers/*.pdf
+
+# sentence transformer model cache
+.cache/
